@@ -5,7 +5,7 @@ import Join from './component/Join'
 function App() {
   const [userCity, setUserCity] = useState('nearby')
   const locateUser = () => {
-    Axios.get('http://ip-api.com/json/')
+    Axios.get('https://ip-api.com/json/')
     .then(data => {
       const userCurrentCity = data.data.city
       setUserCity(userCurrentCity)
