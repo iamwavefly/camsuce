@@ -80,7 +80,7 @@
   border-radius: 5rem;
   cursor: pointer;
   font-weight: 600;
-  box-shadow: 0 0 10px rgba(82, 43, 9, 0.164);
+  box-shadow: 0 0 10px rgba(54, 28, 5, 0.089);
   transition: all .6s ease-in;
   animation: pulse 5s ease 1s infinite;
 }
@@ -149,21 +149,21 @@
 
 @-webkit-keyframes pulse {
   to{
-      box-shadow: 0 0 0 20px rgba(143, 81, 26, 0.013);
+      box-shadow: 0 0 0 20px rgba(73, 39, 10, 0.013);
   }
 }
 @-moz-keyframes pulse {
   to{
-      box-shadow: 0 0 0 20px rgba(143, 81, 26, 0.013);
+      box-shadow: 0 0 0 20px rgba(73, 39, 10, 0.013);
   }
 }
 @-ms-keyframes pulse {
   to{
-      box-shadow: 0 0 0 20px rgba(143, 81, 26, 0.013);
+      box-shadow: 0 0 0 20px rgba(73, 39, 10, 0.013);
   }
 }
 @keyframes pulse {
   to{
-      box-shadow: 0 0 0 20px rgba(143, 81, 26, 0.013);
+      box-shadow: 0 0 0 20px rgba(73, 39, 10, 0.013);
   }
 }
