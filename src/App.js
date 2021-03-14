@@ -5,7 +5,7 @@ import Join from './component/Join'
 function App() {
   const [userCity, setUserCity] = useState('nearby')
   const locateUser = () => {
-    Axios.get('http://api.ipstack.com/check?access_key=56043ed5a2342068e55487cf4c4e7002')
+    Axios.get('https://ipgeolocation.abstractapi.com/v1/?api_key=24a90d2d25d846e288c329787274ba43')
     .then(data => {
       const userCurrentCity = data.data.city
       setUserCity(userCurrentCity)
