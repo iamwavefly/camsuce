@@ -1,0 +1,169 @@
+.join__form{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.join__form > h3{
+  color: var(--text-color-low);
+  font-size: 18px;
+  font-weight: lighter;
+}
+.logo{
+  height: 5rem;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.logo img{
+  width: 100%;
+}
+.join__form > p, span{
+  color: var(--text-color-low);
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.join__form > .disclaimer{
+  margin-top: 20px;
+}
+.join__form > form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  height: 28%;
+}
+.join__form > form > div{
+  width: 100%;
+  height: 40%;
+  margin-top: 10px;
+  position: relative;
+}
+.join__form > form > div > input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  color: var(--text-color-low);
+  border: 1px solid #eeeeee;
+  background-color: #eeeeee5e;
+  padding: 0 50px;
+  border-radius: 5rem;
+}
+.join__form > form > div > img{
+  position: absolute;
+  top: 48%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+}
+.join__form > form > div > input::placeholder{
+  color: #9e9b9b;
+  font-size: 14px;
+}
+.join__form > form > button{
+  background-image: var(--gradient-color);
+  color: #ffffff;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 0;
+  outline: none;
+  border: 0;
+  border-radius: 5rem;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(82, 43, 9, 0.164);
+  transition: all .6s ease-in;
+  animation: pulse 5s ease 1s infinite;
+}
+.join__form > form > button:hover{
+  background-image: linear-gradient(to right, #DC5023, #CD3E23); 
+  box-shadow: unset;
+}
+.join__form > form > button:active{
+}
+.auth__divider{
+  position: relative;
+  z-index: 2;
+  margin-top: 5px !important;
+  top: 20px;
+}
+.auth__divider::before{
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #eeeeee;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.auth__divider::after{
+  content: '';
+  position: absolute;
+  background-color: #ffffff;
+  padding: 10px;
+  left: 50%;
+  top: 50%;
+  width: 2%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.auth_title{
+  margin-top: 20px !important;
+  font-weight: 400;
+}
+.social_icons{
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+}
+.social_icons > button{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #eeeeee;
+  background-color: #eeeeee5e;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(70, 32, 0, 0.096);
+}
+.social_icons > button:not(:last-child){
+  margin-right: 10px;
+}
+.social_icons > button > img{
+  width: 45%;
+}
+
+
+
+@-webkit-keyframes pulse {
+  to{
+      box-shadow: 0 0 0 20px rgba(143, 81, 26, 0.013);
+  }
+}
+@-moz-keyframes pulse {
+  to{
+      box-shadow: 0 0 0 20px rgba(143, 81, 26, 0.013);
+  }
+}
+@-ms-keyframes pulse {
+  to{
+      box-shadow: 0 0 0 20px rgba(143, 81, 26, 0.013);
+  }
+}
+@keyframes pulse {
+  to{
+      box-shadow: 0 0 0 20px rgba(143, 81, 26, 0.013);
+  }
+}
